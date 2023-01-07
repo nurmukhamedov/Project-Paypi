@@ -27,4 +27,82 @@ body {
   max-width: 1140px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.header {
+  background-image: url("../../images/Mask.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 120px;
+}
+.wrapper__left--title {
+  width: 546px;
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 72px;
+  letter-spacing: -0.553846px;
+  color: #36536B;
+}
+.wrapper__left .form__div {
+  width: 445px;
+  height: 48px;
+  border-radius: 24px;
+  display: flex;
+  background: #FBFCFE;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  margin-top: 50px;
+}
+.wrapper__left .form__div--input {
+  flex-grow: 2;
+  border: none;
+  font-family: "$main-font";
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #36536B;
+  opacity: 0.5;
+  outline: none;
+}
+.wrapper__left .form__div--button {
+  background: #BA4270;
+  border-radius: 24px;
+  font-family: "Public Sans";
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: -0.115385px;
+  color: #FBFCFE;
+  border: none;
+  cursor: pointer;
+  padding: 16px 24.5px 14px 26.5px;
+}
+.wrapper__left .form__div--button:hover {
+  background: #FBFCFE;
+  color: #BA4270;
+  transition: 1s;
+  border: 1px solid #BA4270;
+}
+.wrapper__left--text {
+  font-family: "Public Sans";
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #6C8294;
+  margin-top: 16px;
+  margin-left: 17px;
+}
+.wrapper__left--text .text__span {
+  font-weight: 900;
 }/*# sourceMappingURL=main.css.map */

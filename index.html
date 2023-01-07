@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,26 @@
     <title>Document</title>
     <link rel="stylesheet" href="./Sass/main.css">
 </head>
+
 <body>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis cum doloremque molestiae porro harum sapiente dolorum, eaque placeat asperiores minima.</p>
+    <header class="header">
+        <div class="wrapper">
+            <div class="wrapper__left">
+                <h1 class="wrapper__left--title">Start building with our APIs for absolutely free.</h1>
+                <form action="https://echo.htmlacademy.ru/" class="form" method="post">
+                    <div class="form__div">
+                        <label for="email"></label>
+                        <input type="email" placeholder="Enter email address" class="form__div--input" id="email" name="email">
+                        <button class="form__div--button">Schedule a Demo</button>
+                    </div>
+                </form>
+                <p class="wrapper__left--text ">Have any questions? <span class="text__span ">Contact Us</span></p>
+            </div>
+            <div class="wrapper__right ">
+                <img src="./images/phone.png " alt="phone " class="wrapper__right--img ">
+            </div>
+        </div>
+    </header>
 </body>
+
 </html>
