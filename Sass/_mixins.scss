@@ -1,0 +1,7 @@
+@mixin for-ipad-only {
+    @media screen and (max-width:768px) {
+        .information__wrapper{
+            gap: 10px;
+        }
+    }
+}
