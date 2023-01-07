@@ -1,5 +1,7 @@
 
-@import url(./_header.scss);
+@import './ready';
+@import './header';
+
 @import"./work";
 @import './wrapper';
 @import "./footer";
