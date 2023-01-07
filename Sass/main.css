@@ -1,3 +1,4 @@
+@import url(./_header.scss);
 @font-face {
   font-family: "DM Serif Display";
   font-style: normal;
@@ -27,4 +28,31 @@ body {
   max-width: 1140px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.section__flex {
+  display: flex;
+  margin-top: 150px;
+}
+
+.section__card {
+  margin-top: 125px;
+}
+
+.section__h2 {
+  color: #36536B;
+  width: 445px;
+  font-size: 48px;
+  padding-bottom: 24px;
+}
+
+.section__text {
+  color: #36536B;
+  width: 445px;
+  padding: 5px;
+  font-family: "DM Serif Display";
+}
+.section__text font {
+  size: 15px;
+  weight: 400px;
 }/*# sourceMappingURL=main.css.map */
