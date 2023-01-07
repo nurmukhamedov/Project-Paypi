@@ -114,6 +114,32 @@
 .wrapper {
   max-width: 1140px;
   margin: 0 auto;
+  padding: 0 15px;
+}
+
+.semple1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 150px;
+  position: relative;
+}
+.semple1__img {
+  position: relative;
+}
+.semple1 .tel {
+  position: relative;
+  z-index: 1000;
+}
+.semple1 .bcolor {
+  position: absolute;
+  right: -100px;
+  bottom: 0px;
+  z-index: 0;
+}
+
+.semple__title {
+  padding-bottom: 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -257,6 +283,18 @@
   font-weight: 400;
   font-size: 48px;
   line-height: 56px;
+  color: #36536B;
+}
+.semple__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  max-width: 445px;
+  width: 100%;
+  color: #36536B;
+}/*# sourceMappingURL=main.css.map */
+=======
   letter-spacing: -0.369231px;
   color: #36536B;
 }
@@ -388,4 +426,5 @@ nav button {
     height: 106px;
   }
 }/*# sourceMappingURL=main.css.map */
+
 
