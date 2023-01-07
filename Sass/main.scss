@@ -1,3 +1,7 @@
+@import "./fonts";
+@import "./variables";
+@import "./mixins";
+
 * {
   margin: 0;
   padding: 0;
@@ -5,9 +9,11 @@
 }
 body {
   overflow-x: hidden;
+  font-family: $main-font;
 }
 .container {
   max-width: 1140px;
   margin: 0 auto;
   padding: 0 15px;
 }
+@import "./all-blocks/all-blocks";
