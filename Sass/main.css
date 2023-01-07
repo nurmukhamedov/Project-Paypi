@@ -1,123 +1,133 @@
 @font-face {
-  font-family: "DM Serif Display";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/dm-serif-display-v11-latin-regular.eot");
-  src: local(""), url("../fonts/dm-serif-display-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/dm-serif-display-v11-latin-regular.woff2") format("woff2"), url("../fonts/dm-serif-display-v11-latin-regular.ttf") format("truetype"), url("../fonts/dm-serif-display-v11-latin-regular.svg#DMSerifDisplay") format("svg");
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/dm-serif-display-v11-latin-regular.eot");
+    src: local(""), url("../fonts/dm-serif-display-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/dm-serif-display-v11-latin-regular.woff2") format("woff2"), url("../fonts/dm-serif-display-v11-latin-regular.ttf") format("truetype"), url("../fonts/dm-serif-display-v11-latin-regular.svg#DMSerifDisplay") format("svg");
 }
+
 @font-face {
-  font-family: "DM Serif Display";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/dm-serif-display-v11-latin-regular.eot");
-  src: local(""), url("../fonts/dm-serif-display-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/dm-serif-display-v11-latin-regular.woff2") format("woff2"), url("../fonts/dm-serif-display-v11-latin-regular.ttf") format("truetype"), url("../fonts/dm-serif-display-v11-latin-regular.svg#DMSerifDisplay") format("svg");
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/dm-serif-display-v11-latin-regular.eot");
+    src: local(""), url("../fonts/dm-serif-display-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/dm-serif-display-v11-latin-regular.woff2") format("woff2"), url("../fonts/dm-serif-display-v11-latin-regular.ttf") format("truetype"), url("../fonts/dm-serif-display-v11-latin-regular.svg#DMSerifDisplay") format("svg");
 }
+
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
 }
 
 body {
-  overflow-x: hidden;
-  font-family: "DM Serif Display";
+    overflow-x: hidden;
+    font-family: "DM Serif Display";
 }
 
 .container {
-  max-width: 1140px;
-  margin: 0 auto;
-  padding: 0 15px;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
-<<<<<<< HEAD
 @font-face {
-  font-family: "DM Serif Display";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/dm-serif-display-v11-latin-regular.eot");
-  src: local(""), url("../fonts/dm-serif-display-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/dm-serif-display-v11-latin-regular.woff2") format("woff2"), url("../fonts/dm-serif-display-v11-latin-regular.ttf") format("truetype"), url("../fonts/dm-serif-display-v11-latin-regular.svg#DMSerifDisplay") format("svg");
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/dm-serif-display-v11-latin-regular.eot");
+    src: local(""), url("../fonts/dm-serif-display-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/dm-serif-display-v11-latin-regular.woff2") format("woff2"), url("../fonts/dm-serif-display-v11-latin-regular.ttf") format("truetype"), url("../fonts/dm-serif-display-v11-latin-regular.svg#DMSerifDisplay") format("svg");
 }
+
 .ready {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 .ready__title {
-  font-family: "DM Serif Display";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 48px;
-  line-height: 56px;
-  letter-spacing: -0.369231px;
-  color: #36536B;
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.369231px;
+    color: #36536B;
 }
 
 .ready__wrapper {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .input {
-  width: 445px;
-  height: 48px;
-  background: #FBFCFE;
-  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
-  border-radius: 24px;
-  border-style: none;
-  font-family: "Public Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 15px;
-  line-height: 18px;
-  color: #36536B;
-  mix-blend-mode: normal;
-  opacity: 0.5;
-  padding-left: 27px;
-  outline: none;
+    width: 445px;
+    height: 48px;
+    background: #FBFCFE;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border-radius: 24px;
+    border-style: none;
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #36536B;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    padding-left: 27px;
+    outline: none;
 }
 
 .button {
-  width: 173px;
-  height: 48px;
-  position: absolute;
-  top: 1px;
-  right: 0px;
-  background: #BA4270;
-  border-radius: 24px;
-  border-style: none;
-  font-family: "Public Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  letter-spacing: -0.115385px;
-=======
+    width: 173px;
+    height: 48px;
+    position: absolute;
+    top: 1px;
+    right: 0px;
+    background: #BA4270;
+    border-radius: 24px;
+    border-style: none;
+    font-family: "Public Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: -0.115385px;
+}
+
 nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
 }
+
 nav ul {
-  margin-right: 506px;
-  display: flex;
+    margin-right: 506px;
+    display: flex;
 }
+
 nav ul li {
-  margin-left: 40px;
+    margin-left: 40px;
 }
+
 nav ul li a:link {
-  color: #36536B;
-  text-decoration: none;
+    color: #36536B;
+    text-decoration: none;
 }
+
 nav button {
-  background: #BA4270;
-  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
-  border-radius: 24px;
-  height: 48px;
-  width: 173px;
-  border: none;
->>>>>>> 1082a85870a8e0e4ac5a3fc47f2c9ecd3e1399d1
-  color: #FBFCFE;
-}/*# sourceMappingURL=main.css.map */
+    background: #BA4270;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    border-radius: 24px;
+    height: 48px;
+    width: 173px;
+    border: none;
+    color: #FBFCFE;
+}
+
+
+/*# sourceMappingURL=main.css.map */
