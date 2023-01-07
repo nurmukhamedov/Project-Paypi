@@ -13,7 +13,6 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
-
 }
 
 body {
@@ -27,5 +26,34 @@ body {
     margin: 0 auto;
     padding: 0 15px;
 }
+@import "./all-blocks/all-blocks";
 
+.section__flex{
+  display: flex;
+  margin-top: 150px;
+}
+
+.section__card{
+  margin-top: 125px;
+}
+.section__h2{
+  color: $main-color;
+  width: 445px;
+  font-size: 48px;
+  padding-bottom: 24px;
+
+}
+.section__text{
+    color: $main-color;
+    width: 445px;
+    font{
+      size: 15px;
+      weight:400px;
+
+    }
+    padding: 5px;
+    font-family: "DM Serif Display";
+  
+}
+@import "./all-blocks/all-blocks";
 

@@ -1,16 +1,29 @@
+@import url(./_header.scss);
 @font-face {
   font-family: "DM Serif Display";
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/dm-serif-display-v11-latin-regular.eot");
-  src: local(""), url("../fonts/dm-serif-display-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/dm-serif-display-v11-latin-regular.woff2") format("woff2"), url("../fonts/dm-serif-display-v11-latin-regular.ttf") format("truetype"), url("../fonts/dm-serif-display-v11-latin-regular.svg#DMSerifDisplay") format("svg");
+  src: local(""),
+    url("../fonts/dm-serif-display-v11-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/dm-serif-display-v11-latin-regular.woff2") format("woff2"),
+    url("../fonts/dm-serif-display-v11-latin-regular.ttf") format("truetype"),
+    url("../fonts/dm-serif-display-v11-latin-regular.svg#DMSerifDisplay")
+      format("svg");
 }
 @font-face {
   font-family: "DM Serif Display";
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/dm-serif-display-v11-latin-regular.eot");
-  src: local(""), url("../fonts/dm-serif-display-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/dm-serif-display-v11-latin-regular.woff2") format("woff2"), url("../fonts/dm-serif-display-v11-latin-regular.ttf") format("truetype"), url("../fonts/dm-serif-display-v11-latin-regular.svg#DMSerifDisplay") format("svg");
+  src: local(""),
+    url("../fonts/dm-serif-display-v11-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/dm-serif-display-v11-latin-regular.woff2") format("woff2"),
+    url("../fonts/dm-serif-display-v11-latin-regular.ttf") format("truetype"),
+    url("../fonts/dm-serif-display-v11-latin-regular.svg#DMSerifDisplay")
+      format("svg");
 }
 .work {
   height: 472px;
@@ -167,20 +180,53 @@
 .wrapper__left--text .text__span {
   font-weight: 900;
 }
+.section__flex {
+  display: flex;
+  margin-top: 150px;
+}
 
+.section__card {
+  margin-top: 125px;
+}
+
+.section__h2 {
+  color: #36536b;
+  width: 445px;
+  font-size: 48px;
+  padding-bottom: 24px;
+}
+
+.section__text {
+  color: #36536b;
+  width: 445px;
+  padding: 5px;
+  font-family: "DM Serif Display";
+}
+.section__text font {
+  size: 15px;
+  weight: 400px;
+} 
 .footer {
   padding: 31px 160px;
-  background-color: #1B262F;
+  background-color: #1b262f;
   width: 100%;
   height: 100px;
 }
 .footer__all {
   display: flex;
+
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   justify-content: space-between;
   align-items: center;
 }
 .footer__left {
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 .footer__menu {
@@ -207,15 +253,16 @@ nav ul li {
   margin-left: 40px;
 }
 nav ul li a:link {
-  color: #36536B;
+  color: #36536b;
   text-decoration: none;
 }
 nav button {
-  background: #BA4270;
+  background: #ba4270;
   box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
   border-radius: 24px;
   height: 48px;
   width: 173px;
   border: none;
+  color: #fbfcfe;
   color: #FBFCFE;
 }
