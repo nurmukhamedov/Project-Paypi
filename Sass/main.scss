@@ -1,16 +1,24 @@
 @import "./fonts";
 @import "./variables";
 @import "./mixins";
+@import "./all-blocks/all-blocks";
 * {
-    margin: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+   margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
 }
 
 body {
-    overflow-x: hidden;
-    font-family: $main-font;
+  overflow-x: hidden;
+  font-family: $main-font;
+  
 }
 
 .container {
@@ -18,5 +26,34 @@ body {
     margin: 0 auto;
     padding: 0 15px;
 }
-
 @import "./all-blocks/all-blocks";
+
+.section__flex{
+  display: flex;
+  margin-top: 150px;
+}
+
+.section__card{
+  margin-top: 125px;
+}
+.section__h2{
+  color: $main-color;
+  width: 445px;
+  font-size: 48px;
+  padding-bottom: 24px;
+
+}
+.section__text{
+    color: $main-color;
+    width: 445px;
+    font{
+      size: 15px;
+      weight:400px;
+
+    }
+    padding: 5px;
+    font-family: "DM Serif Display";
+  
+}
+@import "./all-blocks/all-blocks";
+
