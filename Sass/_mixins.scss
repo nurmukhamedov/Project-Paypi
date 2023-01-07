@@ -3,5 +3,21 @@
         .information__wrapper{
             gap: 10px;
         }
+        .image__wrapper{
+            width: 88px;
+            height: 88px;
+        }
+    }
+}
+@mixin for-mobile-only {
+    @media screen and (max-width:576px) {
+        .information__wrapper{
+            flex-direction: column;
+            column-gap: 40px;
+        }
+        .image__wrapper{
+            width: 106px;
+            height: 106px;
+        }
     }
 }

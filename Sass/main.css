@@ -91,4 +91,25 @@ nav button {
   justify-content: center;
   align-items: center;
   background-color: #36536B;
+}
+
+@media screen and (max-width: 768px) {
+  .information__wrapper {
+    gap: 10px;
+  }
+  .image__wrapper {
+    width: 88px;
+    height: 88px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .information__wrapper {
+    flex-direction: column;
+    -moz-column-gap: 40px;
+         column-gap: 40px;
+  }
+  .image__wrapper {
+    width: 106px;
+    height: 106px;
+  }
 }/*# sourceMappingURL=main.css.map */
