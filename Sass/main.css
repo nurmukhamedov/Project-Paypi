@@ -27,4 +27,39 @@ body {
   max-width: 1140px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.information__wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.information__title {
+  font-family: "DM Serif Display";
+  font-weight: 700;
+  font-size: 18px;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.information__text {
+  font-weight: 400;
+  font-size: 15px;
+  text-align: center;
+}
+
+.image__wrapper {
+  width: 106px;
+  height: 106px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #36536B;
 }/*# sourceMappingURL=main.css.map */
