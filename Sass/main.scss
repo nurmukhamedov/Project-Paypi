@@ -8,14 +8,17 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+
 body {
   overflow-x: hidden;
   font-family: $main-font;
   
 }
+
 .container {
-  max-width: 1140px;
-  margin: 0 auto;
-  padding: 0 15px;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
+
 
