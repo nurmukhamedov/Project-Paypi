@@ -48,6 +48,10 @@ nav button {
   color: #FBFCFE;
 }
 
+.nav__button1 {
+  display: none;
+}
+
 .semple1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -168,6 +172,37 @@ nav button {
   .image__wrapper {
     width: 106px;
     height: 106px;
+  }
+  .nav__menu {
+    display: block;
+    width: 300px;
+    height: 667px;
+    background-color: #1B262F;
+    margin-right: 0;
+    padding-top: 50px;
+    padding: 100px 0 0 60px;
+  }
+  .nav__button {
+    display: none;
+    visibility: hidden;
+  }
+  .nav__menu li {
+    margin-top: 32px;
+  }
+  .menu__menu--link {
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FBFCFE;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+  }
+  .nav__button1 {
+    margin-top: 32px;
+    display: block;
   }
 }
 .work {
@@ -512,6 +547,10 @@ nav button {
   color: #FBFCFE;
 }
 
+.nav__button1 {
+  display: none;
+}
+
 .semple1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -632,6 +671,37 @@ nav button {
   .image__wrapper {
     width: 106px;
     height: 106px;
+  }
+  .nav__menu {
+    display: block;
+    width: 300px;
+    height: 667px;
+    background-color: #1B262F;
+    margin-right: 0;
+    padding-top: 50px;
+    padding: 100px 0 0 60px;
+  }
+  .nav__button {
+    display: none;
+    visibility: hidden;
+  }
+  .nav__menu li {
+    margin-top: 32px;
+  }
+  .menu__menu--link {
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FBFCFE;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+  }
+  .nav__button1 {
+    margin-top: 32px;
+    display: block;
   }
 }
 .work {
@@ -983,6 +1053,10 @@ nav button {
   color: #FBFCFE;
 }
 
+.nav__button1 {
+  display: none;
+}
+
 .semple1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1103,6 +1177,37 @@ nav button {
   .image__wrapper {
     width: 106px;
     height: 106px;
+  }
+  .nav__menu {
+    display: block;
+    width: 300px;
+    height: 667px;
+    background-color: #1B262F;
+    margin-right: 0;
+    padding-top: 50px;
+    padding: 100px 0 0 60px;
+  }
+  .nav__button {
+    display: none;
+    visibility: hidden;
+  }
+  .nav__menu li {
+    margin-top: 32px;
+  }
+  .menu__menu--link {
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FBFCFE;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+  }
+  .nav__button1 {
+    margin-top: 32px;
+    display: block;
   }
 }
 .work {
