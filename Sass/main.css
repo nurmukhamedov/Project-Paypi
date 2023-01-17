@@ -46,18 +46,21 @@ nav button {
   padding-top: 150px;
   position: relative;
 }
-.semple1__img {
-  position: relative;
-}
 .semple1 .tel {
   position: relative;
   z-index: 1000;
 }
-.semple1 .bcolor {
+.semple1__img {
+  display: flex;
+  align-items: center;
+}
+.semple1__img .tel {
+  position: relative;
+  left: 70px;
+}
+.semple1__img .bcolor {
   position: absolute;
-  right: -100px;
-  bottom: 0px;
-  z-index: 0;
+  right: -200px;
 }
 
 .semple__title {
@@ -426,18 +429,21 @@ nav button {
   padding-top: 150px;
   position: relative;
 }
-.semple1__img {
-  position: relative;
-}
 .semple1 .tel {
   position: relative;
   z-index: 1000;
 }
-.semple1 .bcolor {
+.semple1__img {
+  display: flex;
+  align-items: center;
+}
+.semple1__img .tel {
+  position: relative;
+  left: 70px;
+}
+.semple1__img .bcolor {
   position: absolute;
-  right: -100px;
-  bottom: 0px;
-  z-index: 0;
+  right: -200px;
 }
 
 .semple__title {
@@ -812,18 +818,21 @@ nav button {
   padding-top: 150px;
   position: relative;
 }
-.semple1__img {
-  position: relative;
-}
 .semple1 .tel {
   position: relative;
   z-index: 1000;
 }
-.semple1 .bcolor {
+.semple1__img {
+  display: flex;
+  align-items: center;
+}
+.semple1__img .tel {
+  position: relative;
+  left: 70px;
+}
+.semple1__img .bcolor {
   position: absolute;
-  right: -100px;
-  bottom: 0px;
-  z-index: 0;
+  right: -200px;
 }
 
 .semple__title {

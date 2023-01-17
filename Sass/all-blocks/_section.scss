@@ -4,18 +4,21 @@
     justify-content: space-between;
     padding-top: 150px;
     position: relative;
-    &__img {
-        position: relative;
-    }
     .tel {
         position: relative;
         z-index: 1000;
     }
-    .bcolor {
-        position: absolute;
-        right: -100px;
-        bottom: 0px;
-        z-index: 0;
+    &__img {
+        display: flex;
+        align-items: center;
+        .tel {
+            position: relative;
+            left: 70px;
+        }
+        .bcolor {
+            position: absolute;
+            right: -200px;
+        }
     }
 }
 
