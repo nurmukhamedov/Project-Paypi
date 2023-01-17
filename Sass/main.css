@@ -141,6 +141,9 @@ nav button {
 .work .wrapper {
   display: flex;
   justify-content: space-between;
+  background-image: url("../../img/round.png");
+  background-repeat: no-repeat;
+  background-position: -60px -60px;
 }
 .work__left {
   padding: 100px 0px;
@@ -521,6 +524,9 @@ nav button {
 .work .wrapper {
   display: flex;
   justify-content: space-between;
+  background-image: url("../../img/round.png");
+  background-repeat: no-repeat;
+  background-position: -60px -60px;
 }
 .work__left {
   padding: 100px 0px;
@@ -907,6 +913,9 @@ nav button {
 .work .wrapper {
   display: flex;
   justify-content: space-between;
+  background-image: url("../../img/round.png");
+  background-repeat: no-repeat;
+  background-position: -60px -60px;
 }
 .work__left {
   padding: 100px 0px;

@@ -2,6 +2,9 @@
   .wrapper {
     display: flex;
     justify-content: space-between;
+    background-image: url('../../img/round.png');
+    background-repeat: no-repeat;
+    background-position:-60px -60px;
   }
 
   height: 472px;
@@ -46,16 +49,18 @@
     background-color: #1b262f;
     width: 130px;
     height: 50px;
+
     &:hover {
       background-color: rgb(242, 236, 236);
       cursor: pointer;
+
       a {
         color: rgb(1, 1, 12);
       }
     }
   }
 
-  &__left--btn > a {
+  &__left--btn>a {
     font-family: "Public Sans";
     font-style: normal;
     font-weight: 700;
@@ -66,13 +71,16 @@
 
     color: #fbfcfe;
   }
+
   &__right {
     margin-top: 180px;
+
     &--1 {
       margin-bottom: 50px;
       display: flex;
       gap: 60px;
     }
+
     &--2 {
       display: flex;
       gap: 80px;
