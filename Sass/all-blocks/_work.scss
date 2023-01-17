@@ -1,81 +1,66 @@
 .work {
-  .wrapper {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  height: 472px;
-  background: #1b262f;
-
-  &__left {
-    padding: 100px 0px;
-  }
-
-  &__left--title {
-    font-family: "DM Serif Display";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 56px;
-    max-width: 445px;
-
-    letter-spacing: -0.369231px;
-
-    color: #fbfcfe;
-    margin-bottom: 24px;
-  }
-
-  &__left--text {
-    max-width: 445px;
-    font-family: "Public Sans";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 28px;
-
-    color: #fbfcfe;
-
-    mix-blend-mode: normal;
-    opacity: 0.7;
-    margin-bottom: 30px;
-  }
-
-  &__left--btn {
-    border: 1px solid #fbfcfe;
-    border-radius: 24px;
-    background-color: #1b262f;
-    width: 130px;
-    height: 50px;
-    &:hover {
-      background-color: rgb(242, 236, 236);
-      cursor: pointer;
-      a {
-        color: rgb(1, 1, 12);
-      }
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
     }
-  }
-
-  &__left--btn > a {
-    font-family: "Public Sans";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 18px;
-    text-align: center;
-    letter-spacing: -0.115385px;
-
-    color: #fbfcfe;
-  }
-  &__right {
-    margin-top: 180px;
-    &--1 {
-      margin-bottom: 50px;
-      display: flex;
-      gap: 60px;
+    height: 472px;
+    background: #1b262f;
+    &__left--title {
+        font-family: "DM Serif Display";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 56px;
+        max-width: 445px;
+        letter-spacing: -0.369231px;
+        color: #fbfcfe;
+        margin-bottom: 24px;
     }
-    &--2 {
-      display: flex;
-      gap: 80px;
+    &__left--text {
+        max-width: 445px;
+        font-family: "Public Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 28px;
+        color: #fbfcfe;
+        mix-blend-mode: normal;
+        opacity: 0.7;
+        margin-bottom: 30px;
     }
-  }
+    &__left--btn {
+        border: 1px solid #fbfcfe;
+        border-radius: 24px;
+        background-color: #1b262f;
+        width: 130px;
+        height: 50px;
+        &:hover {
+            background-color: rgb(242, 236, 236);
+            cursor: pointer;
+            a {
+                color: rgb(1, 1, 12);
+            }
+        }
+    }
+    &__left--btn>a {
+        font-family: "Public Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: -0.115385px;
+        color: #fbfcfe;
+    }
+    &__right {
+        &--1 {
+            margin-bottom: 50px;
+            display: flex;
+            gap: 60px;
+        }
+        &--2 {
+            display: flex;
+            gap: 80px;
+        }
+    }
 }

@@ -12,6 +12,16 @@
   src: url("../fonts/dm-serif-display-v11-latin-regular.eot");
   src: local(""), url("../fonts/dm-serif-display-v11-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/dm-serif-display-v11-latin-regular.woff2") format("woff2"), url("../fonts/dm-serif-display-v11-latin-regular.ttf") format("truetype"), url("../fonts/dm-serif-display-v11-latin-regular.svg#DMSerifDisplay") format("svg");
 }
+.header {
+  background-color: #EDF3F8;
+}
+
+.form__div--input {
+  padding-left: 27px;
+  outline: none;
+  background-color: #EDF3F8;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -142,9 +152,6 @@ nav button {
   display: flex;
   justify-content: space-between;
 }
-.work__left {
-  padding: 100px 0px;
-}
 .work__left--title {
   font-family: "DM Serif Display";
   font-style: normal;
@@ -191,9 +198,6 @@ nav button {
   text-align: center;
   letter-spacing: -0.115385px;
   color: #fbfcfe;
-}
-.work__right {
-  margin-top: 180px;
 }
 .work__right--1 {
   margin-bottom: 50px;
@@ -294,6 +298,8 @@ nav button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #EDF3F8;
+  margin: 96px 0;
 }
 .ready__title {
   font-family: "DM Serif Display";
@@ -392,6 +398,16 @@ body {
   padding: 0 15px;
 }
 
+.header {
+  background-color: #EDF3F8;
+}
+
+.form__div--input {
+  padding-left: 27px;
+  outline: none;
+  background-color: #EDF3F8;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -522,9 +538,6 @@ nav button {
   display: flex;
   justify-content: space-between;
 }
-.work__left {
-  padding: 100px 0px;
-}
 .work__left--title {
   font-family: "DM Serif Display";
   font-style: normal;
@@ -571,9 +584,6 @@ nav button {
   text-align: center;
   letter-spacing: -0.115385px;
   color: #fbfcfe;
-}
-.work__right {
-  margin-top: 180px;
 }
 .work__right--1 {
   margin-bottom: 50px;
@@ -674,6 +684,8 @@ nav button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #EDF3F8;
+  margin: 96px 0;
 }
 .ready__title {
   font-family: "DM Serif Display";
@@ -778,6 +790,16 @@ nav button {
   font-family: "DM Serif Display";
 }
 
+.header {
+  background-color: #EDF3F8;
+}
+
+.form__div--input {
+  padding-left: 27px;
+  outline: none;
+  background-color: #EDF3F8;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -908,9 +930,6 @@ nav button {
   display: flex;
   justify-content: space-between;
 }
-.work__left {
-  padding: 100px 0px;
-}
 .work__left--title {
   font-family: "DM Serif Display";
   font-style: normal;
@@ -957,9 +976,6 @@ nav button {
   text-align: center;
   letter-spacing: -0.115385px;
   color: #fbfcfe;
-}
-.work__right {
-  margin-top: 180px;
 }
 .work__right--1 {
   margin-bottom: 50px;
@@ -1060,6 +1076,8 @@ nav button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #EDF3F8;
+  margin: 96px 0;
 }
 .ready__title {
   font-family: "DM Serif Display";
