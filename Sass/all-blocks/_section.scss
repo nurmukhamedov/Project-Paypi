@@ -38,3 +38,57 @@
         color: $main-color;
     }
 }
+
+.section__flex {
+    display: flex;
+    gap: 150px;
+}
+
+.section__card {
+    margin-top: 125px;
+}
+
+.section__h2 {
+    color: $main-color;
+    width: 445px;
+    font-size: 48px;
+    padding-bottom: 24px;
+}
+
+.section__text {
+    color: $main-color;
+    width: 445px;
+    font: {
+        size: 15px;
+        weight: 400px;
+    }
+    padding: 5px;
+    font-family: "DM Serif Display";
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        max-width: 360px;
+        width: 100%;
+        padding: 0 15px;
+    }
+    .section__flex {
+        flex-direction: column;
+        gap: 0;
+        &--img {
+            max-width: 328px;
+            width: 100%;
+            height: 209px;
+        }
+    }
+    .section__card {
+        margin-top: 0;
+    }
+    .section__h2 {
+        font-size: 36px;
+    }
+    .section__text {
+        font-size: 15px;
+        line-height: 28px;
+    }
+}
